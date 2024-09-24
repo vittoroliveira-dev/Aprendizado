@@ -1,20 +1,17 @@
 """
-Exercicio
-Peça ao usuário para digitar seu nome
-Peça ao usuário para digitar sua idade
-Se nome e idade forem digitados
-Exiba:
-    Seu nome é {nome}
-    Seu nome invertido é {nome invertido}
-    Seu nome contém (ou não) espaços
-    Seu nome tem (n) letras
-    A primeira letra do seu nome é {letra}
-    A última letra do seu nome é {letra}
-
-Se nada for digitado em nome ou idade:
-
-    "Exiba desculpe, você campos vazios."
+Atividade: 1
+   
+    * Seu nome é {nome}
+    *  Seu nome invertido é {nome invertido}
+    * Seu nome contém (ou não) espaços
+    * Seu nome tem (n) letras
+    * A primeira letra do seu nome é {letra}
+    * A última letra do seu nome é {letra}
+    * Se nada for digitado em nome ou idade:
+    *"Exiba desculpe, você campos vazios."
+    
 """
+
 nome = str(input('Digite o seu nome: '))
 
 if not nome.strip(): # verifica se a string está vazia ou contém apenas espaços
