@@ -1,5 +1,5 @@
 """
-Calculadora com while
+Calculadora com while modelo 1
 """
 
 def input_int_or_float(prompt):
