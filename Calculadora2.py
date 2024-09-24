@@ -1,5 +1,5 @@
 """
-Calculadora com while
+Calculadora com while modelo 2
 """
 
 while True:
@@ -7,10 +7,6 @@ while True:
     numero_2 = input('Digite outro número: ')
     operador = input('Digite um operador: (+ - / *)')
 
- #   numeros_validos = None
- #   num_1_float_int = 0
- #   num_2_float_int = 0
-    
     try:
         num_1_float = float(numero_1)
         num_2_float = float(numero_2)
