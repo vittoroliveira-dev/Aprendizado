@@ -1,13 +1,3 @@
-"""
-faça um jogo para o usuário adivinhar qual a palavra secreta
-você vai propor uma palavra secreta qualquer
-e vai dar a possibilidade para o usuário digitar apenas uma letra
-quando o usuário digitar uma letra, você vai conferir se a letra digitada está na palavra secreta
-se a letra digitada estiver na palavra secreta; exiba a letra;
-se a letra digitada não estiver; exiba *
-faça a contagem de tentativas do seu usuário
-"""
-
 palavra_secreta = 'Macaco'
 tentativa_usuario = ''
 letras_corretas = ['_' for letra in palavra_secreta] # Exibe letras adivinhas ou espaços
